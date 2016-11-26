@@ -13,4 +13,11 @@ Rails.application.routes.draw do
   post '/chores', to: 'chores#create'
   patch 'chores/:id', to: 'chores#update'
   delete 'chores/:id', to: 'chores#destroy'
+
+  # groups routes
+  get '/groups', to: 'groups#index'
+  get '/groups/:id', to: 'groups#show'
+  post '/groups', to: 'groups#create'
+  patch 'groups/:id', to: 'groups#update'
+  delete 'groups/:id', to: 'groups#destroy'
 end
