@@ -18,7 +18,7 @@ class ExamplesController < OpenReadController
   # POST /examples
   # POST /examples.json
   def create
-    @example = current_user.examples.build(example_params)
+    @example = current_user.examples.build(example_params) # assigns data to
 
     if @example.save
       render json: @example, status: :created, location: @example

@@ -6,7 +6,6 @@ curl --include --request POST http://localhost:4741/chores \
     "chore": {
       "name": "rake",
       "due_date": "2016-11-30",
-      "difficulty": 5,
-      "assigned_to": "ralph"
+      "difficulty": 5
     }
   }'

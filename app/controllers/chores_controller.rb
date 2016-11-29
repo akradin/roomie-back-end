@@ -10,9 +10,9 @@ class ChoresController < ApplicationController
   end
 
   def index
-    @index = Chore.all
+    @chores = Chore.all
 
-    render json: @index
+    render json: @chores
   end
 
   def show

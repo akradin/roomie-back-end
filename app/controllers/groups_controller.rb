@@ -10,9 +10,9 @@ class GroupsController < ApplicationController
   end
 
   def index
-    @index = Group.all
+    @groups = Group.all
 
-    render json: @index
+    render json: @groups
   end
 
   def show
