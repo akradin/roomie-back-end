@@ -1,6 +1,6 @@
 # works!
 
-curl --include --request POST http://localhost:4741/groups \
+curl --include --request POST https://safe-brushlands-64300.herokuapp.com/groups \
   --header "Content-Type: application/json" \
   --data '{
     "group": {
