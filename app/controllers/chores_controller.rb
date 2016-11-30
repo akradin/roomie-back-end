@@ -10,7 +10,7 @@ class ChoresController < OpenReadController
   end
 
   def index
-    @chores = Chore.where(:user_id => current_user.id)
+    @chores = Chore.all
 
     render json: @chores
   end
