@@ -42,4 +42,4 @@ class ChoresController < OpenReadController
 
     head :no_content
   end
-end
+end`
