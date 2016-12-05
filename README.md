@@ -21,6 +21,7 @@ I started off by building the back end for this application. I did this so I wou
 
 ## Links
 
-Website https://akradin.github.io/roomie-front-end/
-Wireframe and ERD - http://framebox.org/ZCbT
-front-end Repo https://github.com/akradin/roomie-front-end
+Website https://akradin.github.io/roomie-front-end/ <br>
+Wireframe and ERD - http://framebox.org/ZCbT <br>
+front-end Repo https://github.com/akradin/roomie-front-end <br>
+Heroky https://safe-brushlands-64300.herokuapp.com/ <br>
