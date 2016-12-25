@@ -6,7 +6,7 @@ class ChoresController < OpenReadController
   end
 
   def chore_params
-    params.require(:chore).permit(:name, :due_date, :difficulty, :assigned_to)
+    params.require(:chore).permit(:name, :due_date, :difficulty, :assigned_to, :completed)
   end
 
   def index
